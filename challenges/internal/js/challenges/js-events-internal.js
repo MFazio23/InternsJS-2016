@@ -24,12 +24,6 @@ module.exports = {
 
         return colorsA && colorsB;
     },
-    verifyHoverableSpan: function(){ 
-        return false;
-    },
-    verifyHoverBoxes: function() {
-        return false;
-    },
     getElementColor: function(a, b, c) {
         console.log("Element color", a, b, c);
     }
