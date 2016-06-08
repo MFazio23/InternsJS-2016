@@ -1,0 +1,16 @@
+{
+  "name": "nov-pub-club-2015",
+  "version": "1.0.0",
+  "author": "Michael Fazio <mfazio@skylinetechnologies.com>",
+  "private": "true",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "reveal.js": "^3.2.0",
+    "serve-static": "^1.10.0",
+    "finalhandler": "latest"
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  }
+}

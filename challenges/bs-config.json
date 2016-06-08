@@ -1,0 +1,12 @@
+{
+  "files": [
+    "./app/**/*.{html,htm,css,js}",
+    "./challenges/*.js",
+    "./internal/**/*.{html,htm,css,js}",
+    "./internal/js/challenges/*.js",
+    "./*.{html,css,js,json}"
+  ],
+  "server": {
+    "baseDir": "./"
+  }
+}

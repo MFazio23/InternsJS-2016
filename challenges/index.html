@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set the base href -->
+    <script>document.write('<base href="' + document.location.origin + '" />');</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>JavaScript/TypeScript/Angular2 Challenges</title>
+    <link rel="icon" href="favicon.ico">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/internal/css/simple-sidebar.css" rel="stylesheet">
+    <link href="/internal/css/intern-challenges.css" rel="stylesheet">
+
+    <script src="/node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="/node_modules/zone.js/dist/zone.js"></script>
+    <script src="/node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="/node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="/systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function (err) {
+            console.error(err);
+        });
+    </script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img src="/internal/img/skyline-logo-md.jpg">
+            </a>
+            <div class="navbar-text">Skyline 2016 Interns - JavaScript/TypeScript/Angular2 Challenges</div>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li id="username" class="nav-item" href="#">Username...</li>
+        </ul>
+    </div>
+</nav>
+
+<js-ts-ng>
+    <div id="loader">
+        <div id="box"></div>
+        <div id="hill"></div>
+    </div>
+</js-ts-ng>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/internal/js/intern-challenges.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+    /*$("#menu-toggle").click(function (e) {
+     e.preventDefault();
+     $("#wrapper").toggleClass("toggled");
+     });*/
+</script>
+
+</body>
+
+</html>
