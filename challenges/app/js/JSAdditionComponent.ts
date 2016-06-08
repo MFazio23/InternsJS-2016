@@ -25,7 +25,8 @@ export class JSAdditionComponent extends Challenge {
                     new Objective(2, '<span>The call to <code>addTogether(10, 10)</code> should return 20.</span>', 20),
                     new Objective(3, '<span>The call to <code>addTogether(5)</code> should return 5.</span>', 5),
                     new Objective(4, '<span>The call to <code>addTogether()</code> should return 0.</span>', 0),
-                    new Objective(5, '<span>The call to <code>addTogether(-3, 7)</code> should return 4.</span>', 4)
+                    new Objective(5, '<span>The call to <code>addTogether(-3, 7)</code> should return 4.</span>', 4),
+                    new Objective(6, '<span>The call to <code>addTogether(3, 6, 4)</code> should return 13.</span>', 13),
                 ]
             ),
             challengeService
